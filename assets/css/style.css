@@ -2,7 +2,12 @@
     max-width: 960px;
     margin: 0 auto;
 }
-
+html {
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/bananas.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
 footer {
     text-align: center;
     clear: both;
@@ -12,6 +17,9 @@ footer {
     padding: 30px 0px;
     height: 50px;
     border-top: 8px solid #4aaaa5;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 h1 {
@@ -28,7 +36,6 @@ h2 {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/bananas.png");
     color: #777777;
     margin: 0;
 }
@@ -83,6 +90,8 @@ header {
     margin-top: 30px;
     margin-bottom: 30px;
     border-color: #dddddd;
+    width: 100%;
+    max-width: 960px;
 }
 
 hr {
